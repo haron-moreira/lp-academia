@@ -1,33 +1,218 @@
 * {
     box-sizing: border-box;
     margin: 0vh;
-    border: 0vh;
+    padding: 0vh;
+    font-family: 'Roboto Slab', serif;
 }
 
-body {
+.nav-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0000FF;
+    height: 10vh;
+    padding: 2vh;
+    color: aliceblue;
+}
+
+.opcoes-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5vh;
+}
+
+.btn-nav {
+    min-width: fit-content;
+    width: 4vw;
+    height: 5vh;
+    padding: 1vh;
+    background-color: #0055FF;
+    border: transparent;
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.btn-nav:hover {
+    background-color: #0099FF;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.img-logo {
+    width: 3vw;
+    height: 6vh;
+}
+
+.nome-empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.nome-empresa-p {
+    font-size: 32px;
+}
+
+
+/* body {
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
+} */
+
+.content {
+    width: 98.9vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container {
-    background-color: rgb(184, 40, 40);
-    width: 5vw;
-    height: 10vh;
+.apresentacao {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 75vw;
+    height: 15vh;
+    flex-direction: column;
+}
+
+.beneficios {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 75vw;
+    height: 55vh;
+    flex-direction: column;
+    padding-top: 6vh;
+}
+
+.imgs {
+    padding-top: 8vh;
+    gap: 8vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.img-atividade {
+    width: 8vw;
+    height: 16vh;
+    transition: 0.3s;
+}
+
+/* .img-atividade:hover {
+    width: 10vw;
+    height: 20vh;
+} */
+
+.valores {
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    width: 75vw;
+    height: 35vh;
+    padding-top: 10vh;
+}
+
+.planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 8vh;
+    gap: 5vw;
+
+}
+
+.plano {
+    border: none;
+    background-color: gainsboro;
+    display: flex;
+    /* gap: 2vw; */
+    flex-direction: column;
+    min-width: 20vw;
+    padding-bottom: 8vh;
+}
+
+.nome-plano {
+    color: #FFF;
+    font-size: 24px;
+    background-color: #0000FF;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.descricao-plano {
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid black ;
+    gap: 1vh;
+    padding-bottom: 2vh;
+}
+
+.valor-plano {
+
+    padding-top: 6vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: red;
+    font-size: 26px;
+}
+
+.parcela-plano {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: red;
+    font-size: 12px;
+}
+
+.pagamento-plano {
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}
+
+
+.detalhes {
+    background-color: yellow;
+    width: 15vw;
+    height: 10vh;
+}
+
+.img-pay {
+    width: 7vw;
+    height: 15vh;
+}
+
+.pagamentos {
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
     justify-content: center;
     align-items: center;
 }
 
-.texto-nome {
-    background-color: aquamarine;
-    width: 2vw;
-    height: 4vh;
+.btn-comprar {
+    background-color: #0000FF;
+    color: #FFF;
+    font-size: 24px;
+    padding: 2vh;
+    border: none;
+    transition: 0.3s;
 }
 
-.p {
-    color: black;
+.btn-comprar:hover {
+    background-color: #0099FF;
 }

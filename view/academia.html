@@ -4,25 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academia Frangolino</title>
+    <title>Academia Frangolinos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="/lp-academia/lp-academia/js/script.js"></script>
 </head>
-<body>
+<body onload="change()">
 
 <header>
+    <nav class="nav-style">
 
-</header>
+        <div class="logo">
+            <img src="/lp-academia/lp-academia/img/icons8-haltere-90.png" alt="LOGO" class="img-logo">
+        </div>
     
-    <div class="container">
-        <div class="texto-nome">
-            <p class="p">H</p>
+        <div class="nome-empresa">
+            <p class="nome-empresa-p">Academia Frangolinos</p>
         </div>
         
+        <div class="opcoes-nav">
+            <button class="btn-nav">Sobre</button>
+            <button class="btn-nav">Contato</button>
+            <button class="btn-nav">FAQ</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <div class="content">
+
+        <div class="apresentacao">
+            <br>
+            <h1>Vem pra Frangolinos.</h1>
+            <h3>A academia onde os frangos crescem. </h3>
+        </div>
+    
+        <div class="beneficios">
+            <p>Já pensou em voltar a ter autoestima em dia? <br> 
+                Agora você pode! Venha treinar conosco e revigore a sua autoestima. <br>
+                Com a gente, você poderá fazer exercício todos os dias da semana com diversas atividades
+                como natação, musculação, lutas, danças e muito mais!</p>
+
+            <div class="imgs">
+                <img id="natacao-img" class="img-atividade" src="/lp-academia/lp-academia/img/icons8-maratona-de-natação-80.png" alt="Natação">
+                <img id="musculacao-img" class="img-atividade" src="/lp-academia/lp-academia/img/icons8-levantamento-de-peso-80.png" alt="Musculação">
+                <img id="luta-img" class="img-atividade" src="/lp-academia/lp-academia/img/icons8-judô-80.png" alt="Lutas">
+                <img id="danca-img" class="img-atividade" src="/lp-academia/lp-academia/img/icons8-tango-80.png" alt="Danças">
+            </div>
+        </div>
+    
+        <div class="valores">
+            <h1>Veja abaixo os nossos planos:</h1>
+
+            <div class="planos">
+
+                <div class="plano">
+                    <div class="nome-plano">
+                        <p>Pequeno Frangolino</p>
+                    </div>
+                    <div class="descricao-plano">
+                        <ul>Pacote anual</ul>
+                        <ul>Treine 4x na semana</ul>
+                        <ul>Instrutores a cada 30 minutos</ul>
+                        <ul>Apenas Musculação</ul>
+                        <ul>Até 2 horas de treino por dia</ul>
+                    </div>
+                    <div class="valor-plano">
+                        <p>R$49,90</p>
+                    </div>
+                    <div class="parcela-plano">
+                        <p>ou R$500,00 à vista</p>
+                    </div>
+                    <div class="pagamento-plano">
+                        <button class="btn-comprar">Comprar esse plano</button>
+                    </div>
+                    
+                </div>
+
+                <div class="plano mais-comprado">
+                    <div class="nome-plano">
+                        <p>Ascenção do Frangolino</p>
+                    </div>
+                    <div class="descricao-plano">
+                        <ul>Pacote anual</ul>
+                        <ul>Treine 4x na semana</ul>
+                        <ul>Instrutores a cada 30 minutos</ul>
+                        <ul>Apenas Musculação</ul>
+                        <ul>Até 2 horas de treino por dia</ul>
+                    </div>
+                    <div class="valor-plano">
+                        <p>R$69,90</p>
+                    </div>
+                    <div class="parcela-plano">
+                        <p>ou R$700,00 à vista</p>
+                    </div>
+                    <div class="pagamento-plano">
+                        <button class="btn-comprar">Comprar esse plano</button>
+                    </div>
+                    
+                </div>
+
+                <div class="plano">
+                    <div class="nome-plano">
+                        <p>Frango Blindadão</p>
+                    </div>
+                    <div class="descricao-plano">
+                        <ul>Pacote anual</ul>
+                        <ul>Treine 4x na semana</ul>
+                        <ul>Instrutores a cada 30 minutos</ul>
+                        <ul>Apenas Musculação</ul>
+                        <ul>Até 2 horas de treino por dia</ul>
+                    </div>
+                    <div class="valor-plano">
+                        <p>R$99,90/mês</p>
+                    </div>
+                    <div class="parcela-plano">
+                        <p>ou R$1000,00 à vista</p>
+                    </div>
+                    <div class="pagamento-plano">
+                        <button class="btn-comprar">Comprar esse plano</button>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="pagamentos">
+                <img class="img-pay" src="/lp-academia/lp-academia/img/icons8-amex-96.png" alt="Amx">
+                <img class="img-pay" src="/lp-academia/lp-academia/img/icons8-mastercard-96.png" alt="master">
+                <img class="img-pay" src="/lp-academia/lp-academia/img/icons8-visa-96.png" alt="visa">
+                <img class="img-pay" src="/lp-academia/lp-academia/img/icons8-código-de-barras-52.png" alt="boleto" style="width: 5vw; height: 12vh">
+                <img class="img-pay" src="/lp-academia/lp-academia/img/logo-pix-png-icone-520x520.png" alt="pix" style="width: 5vw; height: 12vh">
+            </div>
+
+        </div>
+
     </div>
 
-<footer>
-
-</footer>
+</main>
     
 </body>
 </html>
